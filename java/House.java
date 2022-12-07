@@ -2,9 +2,12 @@ public class House {
     String address;
     int numberOfFloors;
 
-    public void buildHouse(){
-        System.out.println("My house is in " + address + " and has " + numberOfFloors + " floors");
+    public House(String address, int numberOfFloors){
+        this.address = address;
+        this.numberOfFloors = numberOfFloors;
+        System.out.println("Building a new House with " + numberOfFloors + " floors in " + address);
     }
+
 
 }
 

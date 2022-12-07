@@ -1,13 +1,13 @@
 public class Start {
     public static void main(String[] args) {
-        House house1 = new House();
-        House house2 = new House();
-        house1.address = "Main Street";
-        house1.numberOfFloors = 3;
-        house2.address = "Secondary Road";
-        house2.numberOfFloors = 2;
-        house1.buildHouse();
-        house2.buildHouse();
+        House house1;
+        House house2;
+        house1 = new House("Via Roma", 2);
+        house2 = new House("Via Milano", 3);
+
+
+
+
     }
 }
 /*create a class called House that has 3 instance variables:
